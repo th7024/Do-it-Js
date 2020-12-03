@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>세션 선택</title>
+	<link rel="stylesheet" href="css/switch.css">
+</head>
+<body>
+	<script>
+		var session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인", "1");
+		switch(session){
+			case "1":
+			document.write("마케팅은 여기다");
+			break;
+			document.write("개발은 여기다");
+			case "2":
+			break;
+			case "3":
+			document.write("디자인은 여기다");
+			break;
+			default:
+			document.write("입력 다시");
+		}
+	</script>
+</body>
+</html>
